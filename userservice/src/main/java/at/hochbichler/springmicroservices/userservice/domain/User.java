@@ -17,9 +17,9 @@ import javax.persistence.Id;
 @Value
 @RequiredArgsConstructor
 @NoArgsConstructor(force = true)
-public class UserEntity {
+public class User {
     @Id @GeneratedValue @NonFinal
-    private String id;
+    private long id;
     @NonNull
     private String username;
     @NonNull

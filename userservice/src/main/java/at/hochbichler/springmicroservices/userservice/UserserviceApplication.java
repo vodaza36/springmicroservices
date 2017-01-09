@@ -1,6 +1,6 @@
 package at.hochbichler.springmicroservices.userservice;
 
-import at.hochbichler.springmicroservices.userservice.domain.UserEntity;
+import at.hochbichler.springmicroservices.userservice.domain.User;
 import at.hochbichler.springmicroservices.userservice.domain.UserRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
@@ -19,10 +19,10 @@ public class UserserviceApplication {
 	@Bean
 	public CommandLineRunner demo(UserRepository repo) {
 		return (String... args) -> {
-			repo.save(new UserEntity("vodaza36", "thomas@hochbichler.at"));
+			repo.save(new User("vodaza36", "thomas@hochbichler.at"));
 			log.info("Dummy users created!");
 
-			UserEntity user1 = repo.findByEmail("thomas@hochbichler.at");
+			User user1 = repo.findByEmail("thomas@hochbichler.at");
 			log.info("Found registered user: " + user1);
 		};
 	}
