@@ -19,7 +19,7 @@ import javax.persistence.Id;
 @NoArgsConstructor(force = true)
 public class User {
     @Id @GeneratedValue @NonFinal
-    private long id;
+    private Long id;
     @NonNull
     private String username;
     @NonNull

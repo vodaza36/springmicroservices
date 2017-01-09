@@ -19,11 +19,17 @@ public class UserserviceApplication {
 	@Bean
 	public CommandLineRunner demo(UserRepository repo) {
 		return (String... args) -> {
-			repo.save(new User("vodaza36", "thomas@hochbichler.at"));
-			log.info("Dummy users created!");
+			repo.save(new User("tom", "thomas@hochbichler.at"));
+            repo.save(new User("julia", "julia@hochbichler.at"));
+            repo.save(new User("marion", "marion@hochbichler.at"));
+            log.info("Dummy users created!");
 
 			User user1 = repo.findByEmail("thomas@hochbichler.at");
-			log.info("Found registered user: " + user1);
+            User user2 = repo.findByEmail("julia@hochbichler.at");
+            User user3 = repo.findByEmail("marion@hochbichler.at");
+			log.info("Found user 1: " + user1);
+            log.info("Found user 2: " + user2);
+            log.info("Found user 3: " + user3);
 		};
 	}
 }
