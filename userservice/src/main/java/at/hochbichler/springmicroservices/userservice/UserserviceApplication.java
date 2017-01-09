@@ -1,4 +1,4 @@
-package at.hochbichler.springmicroservices;
+package at.hochbichler.springmicroservices.userservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

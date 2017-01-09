@@ -1,4 +1,4 @@
-package at.hochbichler.springmicroservices.domain;
+package at.hochbichler.springmicroservices.userservice.domain;
 
 import lombok.Value;
 import lombok.experimental.NonFinal;
