@@ -1,1 +1,12 @@
-# TODO
+version: '2'
+services:
+  discovery-service:
+    image: xhocht/eurekaservice
+    ports:
+      - "8761:8761"
+  user-service:
+    image: xhocht/userservice
+    ports:
+      - "8081:8080"
+    depends_on:
+      - discovery-service
