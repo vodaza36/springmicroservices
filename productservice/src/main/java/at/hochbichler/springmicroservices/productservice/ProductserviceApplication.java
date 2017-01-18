@@ -27,6 +27,12 @@ public class ProductserviceApplication {
 			repo.save(new Product("Product B"));
 			repo.save(new Product("Product C"));
 			log.info("Dummy products created!");
+
+			Iterable<Product> products = repo.findAll();
+
+			for (Product product : products) {
+				log.info("Found product: " + product);
+			}
 		};
 	}
 }
