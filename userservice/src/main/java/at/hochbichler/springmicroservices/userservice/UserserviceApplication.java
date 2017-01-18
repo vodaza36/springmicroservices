@@ -7,6 +7,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Profile;
 
 @SpringBootApplication
 @Slf4j
@@ -16,6 +17,7 @@ public class UserserviceApplication {
 		SpringApplication.run(UserserviceApplication.class, args);
 	}
 
+	@Profile("dev")
 	@Bean
 	public CommandLineRunner demo(UserRepository repo) {
 		return (String... args) -> {

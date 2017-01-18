@@ -7,10 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="productservice" />
         <module name="userservice" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="productservice" target="1.8" />
       <module name="userservice" target="1.8" />
     </bytecodeTargetLevel>
   </component>
