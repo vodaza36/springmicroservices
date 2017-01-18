@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: productservice
+
+server:
+  port: 0
+  context-path: /productservice/v1
+  display-name: productservice
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+    instance:
+      instanceId:
+        ${spring.application.name}:${vcap.application.instance_id:${spring.application.instance_id:${random.value}}}
