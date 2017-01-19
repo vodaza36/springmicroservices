@@ -1017,7 +1017,7 @@
       <workItem from="1484731489287" duration="244000" />
       <workItem from="1484731819861" duration="1514000" />
       <workItem from="1484733349490" duration="20919000" />
-      <workItem from="1484826939418" duration="1403000" />
+      <workItem from="1484826939418" duration="1409000" />
     </task>
     <task id="LOCAL-00001" summary="Add Lombok support&#10;">
       <created>1483993670197</created>
@@ -1110,11 +1110,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484828648661</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Add new docker phases to parent pom">
+      <created>1484828657225</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1484828657225</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38628000" />
+    <option name="totallyTimeSpent" value="38634000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
