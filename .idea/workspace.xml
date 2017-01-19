@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96b05771-86a6-4c87-b949-8552d358a9a5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_rest_1_4_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_rest_webmvc_2_5_6_RELEASE.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/productservice/pom.xml" afterPath="$PROJECT_DIR$/productservice/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/userservice/pom.xml" afterPath="$PROJECT_DIR$/userservice/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/userservice/src/main/java/at/hochbichler/springmicroservices/userservice/infra/UserRestService.java" afterPath="$PROJECT_DIR$/userservice/src/main/java/at/hochbichler/springmicroservices/userservice/infra/UserRestService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/userservice/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/userservice/src/main/resources/application.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/userservice/target/" />
@@ -1023,7 +1017,7 @@
       <workItem from="1484731489287" duration="244000" />
       <workItem from="1484731819861" duration="1514000" />
       <workItem from="1484733349490" duration="20919000" />
-      <workItem from="1484826939418" duration="1391000" />
+      <workItem from="1484826939418" duration="1403000" />
     </task>
     <task id="LOCAL-00001" summary="Add Lombok support&#10;">
       <created>1483993670197</created>
@@ -1109,11 +1103,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484761740669</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add new docker phases to parent pom">
+      <created>1484828648661</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1484828648661</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38616000" />
+    <option name="totallyTimeSpent" value="38628000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
