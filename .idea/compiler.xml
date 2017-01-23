@@ -9,12 +9,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eurekaservice" />
         <module name="productservice" />
+        <module name="uaa" />
         <module name="userservice" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eurekaservice" target="1.8" />
       <module name="productservice" target="1.8" />
+      <module name="uaa" target="1.8" />
       <module name="userservice" target="1.8" />
     </bytecodeTargetLevel>
   </component>
